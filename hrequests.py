@@ -39,7 +39,7 @@ def request_with_random_proxy(url, proxies):
     global status_200, status_403, global_session
 
     os_choices = ['win', 'mac', 'lin']
-    browser_choices = ['firefox', 'chrome', 'edge']
+    browser_choices = ['firefox', 'chrome']
 
     if global_session:
         try:
